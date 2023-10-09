@@ -1,4 +1,4 @@
-package com.metrot.day2;
+package com.metrot.demo.day2;
 
 import java.text.NumberFormat;
 import java.time.LocalDate;

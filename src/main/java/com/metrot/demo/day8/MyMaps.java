@@ -1,4 +1,4 @@
-package com.metrot.day8;
+package com.metrot.demo.day8;
 
 import java.util.HashMap;
 import java.util.Map;

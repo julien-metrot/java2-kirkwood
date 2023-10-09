@@ -1,4 +1,4 @@
-package com.metrot.day7;
+package com.metrot.demo.day7;
 
 import java.sql.Array;
 import java.util.ArrayList;

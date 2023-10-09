@@ -1,4 +1,4 @@
-package com.metrot.day2;
+package com.metrot.demo.day2;
 
 public class Mystery {
     private int num;

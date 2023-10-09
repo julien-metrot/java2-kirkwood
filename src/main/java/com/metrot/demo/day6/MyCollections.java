@@ -1,6 +1,6 @@
-package com.metrot.day6;
+package com.metrot.demo.day6;
 
-import com.metrot.day2.BankAccount;
+import com.metrot.demo.day2.BankAccount;
 
 import java.util.*;
 import java.util.stream.Collectors;

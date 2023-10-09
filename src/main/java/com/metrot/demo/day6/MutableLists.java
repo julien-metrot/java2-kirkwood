@@ -1,10 +1,8 @@
-package com.metrot.day6;
+package com.metrot.demo.day6;
 
-import com.metrot.day2.BankAccount;
+import com.metrot.demo.day2.BankAccount;
 
 import java.util.*;
-
-import static com.metrot.day6.MyCollections.printCollection;
 
 public class MutableLists {
     private static List<BankAccount> myList3;
@@ -14,6 +12,6 @@ public class MutableLists {
 
         myList3 = Arrays.asList(new BankAccount(100));
         myList3.add(new BankAccount(200)); // add method is supported because ArrayList is a class
-        printCollection(myList3, "vertical");
+        MyCollections.printCollection(myList3, "vertical");
     }
 }

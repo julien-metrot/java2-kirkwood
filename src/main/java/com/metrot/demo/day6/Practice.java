@@ -1,4 +1,4 @@
-package com.metrot.day6;
+package com.metrot.demo.day6;
 
 import java.util.ArrayList;
 import java.util.Arrays;

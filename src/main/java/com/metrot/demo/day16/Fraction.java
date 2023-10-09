@@ -1,4 +1,6 @@
-package com.metrot.day16;
+package com.metrot.demo.day16;
+
+import java.math.BigInteger;
 
 public class Fraction {
     private int numerator;
@@ -36,5 +38,11 @@ public class Fraction {
         }
         this.denominator = denominator;
 
+    }
+
+    public static int greatestCommonDivisor(int num1, int num2){
+        BigInteger i = BigInteger.valueOf(num1).gcd(BigInteger.valueOf(num2));
+        int gcd = Integer.parseInt(i.toString());
+        return gcd;
     }
 }
