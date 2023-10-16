@@ -69,4 +69,41 @@ class FractionTest {
         double actual = 1.1 + 2.2;
         assertEquals(expected, actual, 0.01); // delta is for rounding
     }
+
+    @Test
+    public void simplify() {
+        // Fraction 1
+        Fraction fraction1 = new Fraction(75, 45);
+        String expected1 = "5/3";
+        String actual1 = fraction1.simplify().toString();
+        assertEquals(expected1, actual1);
+
+        // Fraction 2
+        Fraction fraction2 = new Fraction(2, 4);
+        String expected2 = "1/2";
+        String actual2 = fraction2.simplify().toString();
+        assertEquals(expected2, actual2);
+
+        // Fraction 3
+        Fraction fraction3 = new Fraction(5, 7);
+        String expected3 = "5/7";
+        String actual3 = fraction3.simplify().toString();
+        assertTrue(expected3.equals(actual3));
+
+        // Fraction 4
+        Fraction fraction4 = new Fraction(-2, 4);
+        String expected4 = "-1/2";
+        String actual4 = fraction4.simplify().toString();
+        assertTrue(expected4.equals(actual4));
+
+        // Fraction 5
+        Fraction fraction5 = new Fraction(2, -4).simplify();
+        assertEquals(fraction5.getNumerator(), -1);
+        assertTrue(fraction5.getDenominator() == 2);
+
+        // Fraction 6
+        Fraction fraction6 = new Fraction(-2, -4).simplify();
+        assertEquals(fraction6.getNumerator(), 1);
+        assertTrue(fraction6.getDenominator() == 2);
+    }
 }
