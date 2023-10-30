@@ -5,9 +5,10 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Welcome Home" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<h2><a href="calculator">Calculator</a></h2>
+<h2><a href="convert-temp">Temperature Converter</a></h2>
 </body>
 </html>
