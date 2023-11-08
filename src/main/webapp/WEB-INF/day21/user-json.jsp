@@ -53,6 +53,7 @@
         </div>
     </div>
 </nav>
+<h2 style="margin-left: 6rem; margin-top: 1rem;"><a href="index.jsp">Home</a></h2>
 <div class="container my-4">
     <div class="row">
         <c:forEach items="${users}" var="user">
