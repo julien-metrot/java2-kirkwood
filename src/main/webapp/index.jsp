@@ -10,5 +10,7 @@
 <br/>
 <h2><a href="calculator">Calculator</a></h2>
 <h2><a href="convert-temp">Temperature Converter</a></h2>
+<h2><a href="user-json">People Database</a></h2>
+<h2><a href="julien_measure_converter">Measurement Converter</a></h2>
 </body>
 </html>

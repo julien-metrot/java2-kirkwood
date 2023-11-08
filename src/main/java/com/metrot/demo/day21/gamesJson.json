@@ -1,0 +1,39 @@
+{
+  "games": [
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "description": "Explore the vast kingdom of Hyrule in this action-adventure game.",
+      "genre": "Action-Adventure",
+      "release_date": "2017-03-03",
+      "platform": "Nintendo Switch"
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "description": "Immerse yourself in the Wild West with this open-world action game.",
+      "genre": "Action",
+      "release_date": "2018-10-26",
+      "platform": "PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "Minecraft",
+      "description": "Build and explore your own blocky world in this sandbox game.",
+      "genre": "Sandbox",
+      "release_date": "2011-11-18",
+      "platform": "Various"
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "description": "Embark on a quest in a rich, open-world RPG.",
+      "genre": "RPG",
+      "release_date": "2015-05-19",
+      "platform": "PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "Fortnite",
+      "description": "Battle it out in this popular battle royale game.",
+      "genre": "Battle Royale",
+      "release_date": "2017-09-26",
+      "platform": "Various"
+    }
+  ]
+}
