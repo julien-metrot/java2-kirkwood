@@ -21,7 +21,7 @@ public class JsonReader2 {
 
     public static void main(String[] args) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        GameFromJson gameFromJson = mapper.readValue(new URL("https://raw.githubusercontent.com/jmw8806/java2-kirkwood/main/games.json?token=GHSAT0AAAAAACJPUIK2SCGJTHFO6AOZMI7WZKK365A"), GameFromJson.class);
+        GameFromJson gameFromJson = mapper.readValue(new URL("https://raw.githubusercontent.com/julien-metrot/java2-kirkwood/master/src/main/java/com/metrot/demo/day21/gamesJson.json"), GameFromJson.class);
 
         // Access the list of games
         List<Game> games = gameFromJson.getGames();
