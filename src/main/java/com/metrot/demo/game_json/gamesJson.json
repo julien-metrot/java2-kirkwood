@@ -36,13 +36,6 @@
       "platform": "Various"
     },
     {
-      "title": "Super Mario Odyssey",
-      "description": "Join Mario on a globe-trotting adventure to save Princess Peach.",
-      "genre": "Platformer",
-      "release_date": "2017-10-27",
-      "platform": "Nintendo Switch"
-    },
-    {
       "title": "Cyberpunk 2077",
       "description": "Enter the futuristic world of Night City in this action RPG.",
       "genre": "Action RPG",
@@ -55,13 +48,6 @@
       "genre": "FPS",
       "release_date": "2016-05-24",
       "platform": "Various"
-    },
-    {
-      "title": "Assassin's Creed Valhalla",
-      "description": "Become a Viking raider in this historical action-adventure game.",
-      "genre": "Action-Adventure",
-      "release_date": "2020-11-10",
-      "platform": "PlayStation 4, Xbox One, PC"
     },
     {
       "title": "Rocket League",
@@ -146,20 +132,6 @@
       "genre": "Action RPG",
       "release_date": "2020-11-10",
       "platform": "PlayStation 4, Xbox One, PlayStation 5, Xbox Series X/S, PC"
-    },
-    {
-      "title": "Cyberpunk 2077",
-      "description": "Explore the futuristic open world of Night City in this action RPG.",
-      "genre": "Action RPG",
-      "release_date": "2020-12-10",
-      "platform": "PlayStation 4, Xbox One, PC"
-    },
-    {
-      "title": "Overwatch",
-      "description": "Join a team of heroes in this team-based multiplayer first-person shooter.",
-      "genre": "FPS",
-      "release_date": "2016-05-24",
-      "platform": "Various"
     },
     {
       "title": "Super Mario Odyssey",
