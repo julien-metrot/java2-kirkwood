@@ -39,8 +39,8 @@ public class Game implements Comparable<Game> {
     }
 
     @Override
-    public int compareTo(Game o) {
-        return 0;
+    public int compareTo(Game other) {
+        return this.title.compareTo(other.title);
     }
 
     @Override
