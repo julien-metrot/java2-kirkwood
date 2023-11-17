@@ -1,7 +1,6 @@
-package com.metrot.demo.day21;
+package com.metrot.demo.game_json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import java.util.List;
 
