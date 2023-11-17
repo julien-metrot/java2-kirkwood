@@ -34,6 +34,181 @@
       "genre": "Battle Royale",
       "release_date": "2017-09-26",
       "platform": "Various"
+    },
+    {
+      "title": "Super Mario Odyssey",
+      "description": "Join Mario on a globe-trotting adventure to save Princess Peach.",
+      "genre": "Platformer",
+      "release_date": "2017-10-27",
+      "platform": "Nintendo Switch"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "description": "Enter the futuristic world of Night City in this action RPG.",
+      "genre": "Action RPG",
+      "release_date": "2020-12-10",
+      "platform": "PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "Overwatch",
+      "description": "Team-based multiplayer first-person shooter with diverse characters.",
+      "genre": "FPS",
+      "release_date": "2016-05-24",
+      "platform": "Various"
+    },
+    {
+      "title": "Assassin's Creed Valhalla",
+      "description": "Become a Viking raider in this historical action-adventure game.",
+      "genre": "Action-Adventure",
+      "release_date": "2020-11-10",
+      "platform": "PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "Rocket League",
+      "description": "Combine soccer and rocket-powered cars in this unique sports game.",
+      "genre": "Sports",
+      "release_date": "2015-07-07",
+      "platform": "Various"
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "description": "Experience the sprawling city of Los Santos in this action-adventure game.",
+      "genre": "Action-Adventure",
+      "release_date": "2013-09-17",
+      "platform": "PlayStation 3, Xbox 360, PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "League of Legends",
+      "description": "Engage in intense multiplayer online battles in this popular MOBA game.",
+      "genre": "MOBA",
+      "release_date": "2009-10-27",
+      "platform": "PC"
+    },
+    {
+      "title": "FIFA 22",
+      "description": "Play the latest installment of the popular football simulation game.",
+      "genre": "Sports",
+      "release_date": "2021-10-01",
+      "platform": "Various"
+    },
+    {
+      "title": "God of War",
+      "description": "Embark on a journey with Kratos, the God of War, in this action-adventure game.",
+      "genre": "Action-Adventure",
+      "release_date": "2018-04-20",
+      "platform": "PlayStation 4, PlayStation 5"
+    },
+    {
+      "title": "Among Us",
+      "description": "Work together on a spaceship but beware of impostors in this multiplayer party game.",
+      "genre": "Party",
+      "release_date": "2018-06-15",
+      "platform": "Various"
+    },
+    {
+      "title": "The Elder Scrolls V: Skyrim",
+      "description": "Enter the vast open world of Skyrim in this epic fantasy RPG.",
+      "genre": "RPG",
+      "release_date": "2011-11-11",
+      "platform": "Various"
+    },
+    {
+      "title": "Call of Duty: Warzone",
+      "description": "Engage in intense battle royale action in the Call of Duty universe.",
+      "genre": "Battle Royale",
+      "release_date": "2020-03-10",
+      "platform": "Various"
+    },
+    {
+      "title": "Animal Crossing: New Horizons",
+      "description": "Create your own virtual paradise on a deserted island in this life simulation game.",
+      "genre": "Life Simulation",
+      "release_date": "2020-03-20",
+      "platform": "Nintendo Switch"
+    },
+    {
+      "title": "Counter-Strike: Global Offensive",
+      "description": "Participate in tactical first-person shooter battles in this esports favorite.",
+      "genre": "FPS",
+      "release_date": "2012-08-21",
+      "platform": "PC"
+    },
+    {
+      "title": "Dota 2",
+      "description": "Join the battle in this highly competitive multiplayer online battle arena game.",
+      "genre": "MOBA",
+      "release_date": "2013-07-09",
+      "platform": "PC"
+    },
+    {
+      "title": "Assassin's Creed Valhalla",
+      "description": "Embark on a Viking adventure in this action RPG set in medieval England.",
+      "genre": "Action RPG",
+      "release_date": "2020-11-10",
+      "platform": "PlayStation 4, Xbox One, PlayStation 5, Xbox Series X/S, PC"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "description": "Explore the futuristic open world of Night City in this action RPG.",
+      "genre": "Action RPG",
+      "release_date": "2020-12-10",
+      "platform": "PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "Overwatch",
+      "description": "Join a team of heroes in this team-based multiplayer first-person shooter.",
+      "genre": "FPS",
+      "release_date": "2016-05-24",
+      "platform": "Various"
+    },
+    {
+      "title": "Super Mario Odyssey",
+      "description": "Embark on a globe-trotting adventure with Mario in this 3D platformer.",
+      "genre": "Platformer",
+      "release_date": "2017-10-27",
+      "platform": "Nintendo Switch"
+    },
+    {
+      "title": "The Last of Us Part II",
+      "description": "Experience an emotionally charged story in this action-adventure game.",
+      "genre": "Action-Adventure",
+      "release_date": "2020-06-19",
+      "platform": "PlayStation 4"
+    },
+    {
+      "title": "Star Wars Jedi: Fallen Order",
+      "description": "Become a Jedi in this action-adventure game set in the Star Wars universe.",
+      "genre": "Action-Adventure",
+      "release_date": "2019-11-15",
+      "platform": "PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "Rainbow Six Siege",
+      "description": "Engage in tactical multiplayer battles in this first-person shooter.",
+      "genre": "FPS",
+      "release_date": "2015-12-01",
+      "platform": "Various"
+    },
+    {
+      "title": "Sekiro: Shadows Die Twice",
+      "description": "Master the way of the samurai in this challenging action-adventure game.",
+      "genre": "Action-Adventure",
+      "release_date": "2019-03-22",
+      "platform": "PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "Tom Clancy's The Division 2",
+      "description": "Explore a post-pandemic Washington D.C. in this action RPG.",
+      "genre": "Action RPG",
+      "release_date": "2019-03-15",
+      "platform": "PlayStation 4, Xbox One, PC"
+    },
+    {
+      "title": "Fall Guys: Ultimate Knockout",
+      "description": "Compete in a hilarious battle royale game with up to 60 players.",
+      "genre": "Battle Royale",
+      "release_date": "2020-08-04",
+      "platform": "Various"
     }
   ]
 }
