@@ -49,7 +49,14 @@ public class LoginServlet extends HttpServlet {
                 // Email is found
                 if (!PasswordUtility.checkpw(password, String.valueOf(userFromDatabase.getPassword()))) {
                     // Passwords don't match
-                    results.put("loginFail", "No user found with that email and password combination.");
+                    String userStatus = userFromDatabase.getStatus();
+                    int attemptsLeft = 5;
+                    while (userStatus.equals("active") && attemptsLeft > 0) {
+                        results.put("loginFail", "No user found with that email and password combination. Attempts left: " + attemptsLeft);
+                        attemptsLeft--;
+                    }
+                        userFromDatabase.setStatus("locked");
+                        results.put("loginFail", "You have reached the maximum number of attempts. Please reset your password.");
                 } else {
                     // Passwords match
                     results.put("loginSuccess", "Welcome back!");

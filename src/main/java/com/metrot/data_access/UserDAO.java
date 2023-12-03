@@ -103,4 +103,30 @@ public class UserDAO extends Database{
         }
         return user;
     }
+
+    public static void update(User user) {
+        try (Connection connection = getConnection();
+             CallableStatement statement = connection.prepareCall("{CALL sp_update_user(?, ?, ?, ?, ?, ?, ?, ?, ?)}")) {
+
+            // Set parameters for the stored procedure
+            statement.setInt(1, user.getId());
+            statement.setString(2, user.getFirstName());
+            statement.setString(3, user.getLastName());
+            statement.setString(4, user.getEmail());
+            statement.setString(5, user.getPhone());
+            statement.setString(6, new String(user.getPassword()));
+            statement.setString(7, user.getLanguage());
+            statement.setString(8, user.getStatus());
+            statement.setString(9, user.getPrivileges());
+
+            // Execute the update
+            statement.executeUpdate();
+
+        } catch (SQLException e) {
+            // Handle SQL exceptions
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

@@ -94,6 +94,14 @@ public class User {
         return status;
     }
 
+    public void setStatus(String status) {
+        if ("inactive".equals(status) || "active".equals(status) || "locked".equals(status)) {
+            this.status = status;
+        } else {
+            throw new IllegalArgumentException("Invalid status. Allowed values are 'inactive', 'active', and 'locked'.");
+        }
+    }
+
     public String getPrivileges() {
         return privileges;
     }
