@@ -95,7 +95,7 @@ public class User {
     }
 
     public void setStatus(String status) {
-        if ("inactive".equals(status) || "active".equals(status) || "locked".equals(status)) {
+        if (status.equals("inactive") || status.equals("active") || status.equals("locked")) {
             this.status = status;
         } else {
             throw new IllegalArgumentException("Invalid status. Allowed values are 'inactive', 'active', and 'locked'.");

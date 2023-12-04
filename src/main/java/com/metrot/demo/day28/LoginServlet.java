@@ -19,6 +19,7 @@ import java.util.Map;
 public class LoginServlet extends HttpServlet {
 
     private static Map<String, String> results = new HashMap<>();
+    private static int attemptsLeft = 5;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -46,20 +47,24 @@ public class LoginServlet extends HttpServlet {
                 // Email not found
                 results.put("loginFail", "No user found with that email and password combination.");
             } else {
+                String userStatus = userFromDatabase.getStatus();
                 // Email is found
                 if (!PasswordUtility.checkpw(password, String.valueOf(userFromDatabase.getPassword()))) {
                     // Passwords don't match
-                    String userStatus = userFromDatabase.getStatus();
-                    int attemptsLeft = 5;
-                    while (userStatus.equals("active") && attemptsLeft > 0) {
+                    attemptsLeft--;
+                    if (userStatus.equals("active") && attemptsLeft > 0) {
                         results.put("loginFail", "No user found with that email and password combination. Attempts left: " + attemptsLeft);
-                        attemptsLeft--;
-                    }
+                    } else {
                         userFromDatabase.setStatus("locked");
+                        UserDAO.update(userFromDatabase);
                         results.put("loginFail", "You have reached the maximum number of attempts. Please reset your password.");
-                } else {
+                    }
+                } else if (!userStatus.equals("locked")) {
                     // Passwords match
+                    attemptsLeft = 5;
                     results.put("loginSuccess", "Welcome back!");
+                } else {
+                    results.put("loginFail", "You have reached the maximum number of attempts. Please reset your password.");
                 }
             }
         } catch (Exception e) {
