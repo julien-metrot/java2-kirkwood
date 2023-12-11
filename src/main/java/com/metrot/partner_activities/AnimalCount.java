@@ -64,6 +64,27 @@ public class AnimalCount {
         }
         System.out.println();
 
+        // Final
+        Map<Integer, Integer> ownersCountMap = new HashMap<>();
+
+        for (Map.Entry<Person, List<Animal>> entry : owners_and_their_pets.entrySet()) {
+            int numPerson = entry.getValue().size();
+            ownersCountMap.put(numPerson, ownersCountMap.getOrDefault(numPerson, 0) + 1);
+        }
+
+        System.out.println("Number of owners based on the number of pets: ");
+
+        for (Map.Entry<Integer, Integer> e : ownersCountMap.entrySet()) {
+            Integer numPets = e.getKey();
+            Integer numPerson = e.getValue();
+            String strPerson = numPerson != 0 && numPerson == 1 ? " person has " : " people have ";
+            String strPet = numPets != 0 && numPets == 1 ? " pet" : " pets";
+            System.out.println(numPerson + strPerson + numPets + strPet);
+        }
+
+        System.out.println();
+        //
+
         Map<String, Integer> counter = new HashMap<>();
         for(Map.Entry entry: owners_and_their_pets.entrySet()) {
             List<Animal> animals = (List<Animal>) entry.getValue();
